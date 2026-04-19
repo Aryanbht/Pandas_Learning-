@@ -1,0 +1,29 @@
+# --- Python Environment ---
+.venv/
+env/
+venv/
+ENV/
+bin/
+lib/
+# Ignore compiled python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- VS Code & Editors ---
+.vscode/
+.history/
+*.code-workspace
+
+# --- Data Science & Pandas ---
+# Ignore large datasets (standard practice)
+*.csv
+*.xlsx
+*.json
+# If you start using Jupyter Notebooks later
+.ipynb_checkpoints/
+
+# --- Operating System ---
+Thumbs.db
+desktop.ini
+.DS_Store
