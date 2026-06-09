@@ -27,3 +27,6 @@ df["Grade_Level"] = df["Grade_Level"].replace("10th", 10)
 # Remove duplicates
 df = df.drop_duplicates()
 print(df)
+  
+
+  
